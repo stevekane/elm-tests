@@ -1,0 +1,23 @@
+{
+  "name": "elm-tests",
+  "version": "1.0.0",
+  "description": "Test repo for working w/ the elm programming language",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "compile": "elm-make Test.elm --output public/Test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stevekane/elm-tests.git"
+  },
+  "keywords": [
+    "elm"
+  ],
+  "author": "Steve Kane",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekane/elm-tests/issues"
+  },
+  "homepage": "https://github.com/stevekane/elm-tests#readme"
+}
